@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79d7f37b-55b6-4bba-8974-26515faf810e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/handlers/edit_task_handler.py" afterDir="false" />
+    <list default="true" id="79d7f37b-55b6-4bba-8974-26515faf810e" name="Changes" comment="add &quot;edit_task&quot;">
+      <change afterPath="$PROJECT_DIR$/handlers/delete_task_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/get_completed_tasks_handler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/commands.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/edit_task_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/edit_task_handler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlers/get_tasks_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/get_tasks_handler.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,15 +52,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\Nasru\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="2d7bb690-8155-4960-b007-47e0ab173813" reportId="Telegram_bots/qodana/2024-09-15" />
@@ -111,6 +114,30 @@
       <option name="presentableId" value="Default" />
       <updated>1726122509282</updated>
     </task>
+    <task id="LOCAL-00001" summary="add &quot;edit_task&quot;">
+      <option name="closed" value="true" />
+      <created>1727069350932</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727069350932</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add &quot;edit_task&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add &quot;edit_task&quot;" />
   </component>
 </project>

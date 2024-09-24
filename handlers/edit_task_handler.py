@@ -7,7 +7,7 @@ from config import bot
 edit_task_data = {}
 
 # Шаг 1: Запрос задачи для редактирования
-@bot.message_handler(commands=['edit_task'])
+@bot.message_handler(commands=['edit'])
 def edit_task(message):
     user_id = message.chat.id
     conn = sqlite3.connect('tasks.db')
