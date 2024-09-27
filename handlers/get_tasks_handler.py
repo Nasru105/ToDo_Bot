@@ -34,7 +34,6 @@ def tasks(message):
     else:
         task_list = "У вас нет активных задач."
 
-    # Отправляем список задач пользователю
 
 
 @bot.callback_query_handler(func=lambda call: call.data.startswith("complete_task_"))

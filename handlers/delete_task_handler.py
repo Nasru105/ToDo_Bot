@@ -2,7 +2,6 @@ from telebot import types
 import sqlite3
 from config import bot
 
-
 # Шаг 1: Запрос задачи для удаления
 @bot.message_handler(commands=['delete'])
 def delete_task(message):

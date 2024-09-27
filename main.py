@@ -1,7 +1,6 @@
 import sqlite3
 from datetime import datetime, timedelta
 from apscheduler.schedulers.background import BackgroundScheduler
-from telebot import TeleBot, types
 
 from commands import commands
 from handlers import register_handlers

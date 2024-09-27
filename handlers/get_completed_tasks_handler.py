@@ -18,7 +18,7 @@ def completed_tasks(message):
     conn.close()
 
     if tasks:
-        bot.send_message(message.chat.id, "Ваши текущие задачи:")
+        bot.send_message(message.chat.id, "Ваши выполненые задачи:")
         task_list = []
         for idx, (title, description, deadline, priority, status) in enumerate(tasks, 1):
             task_list.append(f"{idx}. {title}\n"
